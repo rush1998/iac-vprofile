@@ -27,13 +27,10 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "terraform323"
+    bucket = "terraform4654"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
 
   required_version = "~> 1.6.3"
 }
-##
-##
-##
